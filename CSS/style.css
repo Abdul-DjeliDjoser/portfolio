@@ -1,0 +1,43 @@
+*{
+    color: white;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+}
+.skills-item{
+    list-style-type: none;
+    margin: 10px;
+}
+.skills-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background-image: url(/assets/icons/bg.png);
+}
+section{
+    background-image: url(/assets/icons/bg.png);
+}
+.welcome-section{
+    background-image: url("../assects/images/bg.png");
+    height: 910px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+.nav-links_item{
+    padding-left: 25px;
+}
